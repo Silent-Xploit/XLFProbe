@@ -82,10 +82,6 @@ Create custom payload files for both LFI and XSS scans. Example formats:
 <svg onload="alert('XSS');">
 ```
 
-## Screenshots
-
-(Add your tool screenshots here)
-
 ## Output
 
 The tool generates two types of output:
