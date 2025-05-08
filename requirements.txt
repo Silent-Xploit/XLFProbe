@@ -1,0 +1,2 @@
+colorama>=0.4.6
+setuptools>=65.5.1  # Required for pkg_resources

